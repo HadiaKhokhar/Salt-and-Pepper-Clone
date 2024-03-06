@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Futrak";
+  src: url(Assests/Fonts/Futura\ Black.ttf);
+}
+
+
+body{
+  margin: 0px;
+}
+/* HEADER */
+
+
+/* Nav Bar */
+.navbar{
+  height: 100px;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  padding:10px 230px;
+}
+/* For Logo */
+.navbar>.logo{
+  display: inline-block;
+  width:15%;
+  height: 100%;
+  margin-right: 22%;
+}
+.navbar>.logo>img{
+  width:100%;
+  height:100%;
+}
+/*For Nav list */
+.navlist{
+  vertical-align:top;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100%;
+  width: 35%;
+  padding: 30px 0px ;
+  margin: 0px;
+}
+.navlist>li{
+  display: inline-block;
+  font-size:18px;
+  color: white;
+  font-family: sans-serif;
+  margin-right:25px;
+}
+/* For Button */
+.nav-buttons-box{
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width:27%;
+  height: 100%;
+  padding:10px 0px;
+}
+.nav-button{
+  display: inline-block;
+  box-sizing: border-box;
+  width:40%;
+  height: 100%;
+  border-radius:30px;
+  margin-right: 15px;
+  padding:20px 0px;
+  text-align:center;
+  border: 1px solid white;
+  background-color:rgb(0, 0, 0);
+  font: 15px sans-serif;
+  color:white ;
+}
+.i-button{
+  background-color:rgb(237, 28, 36) ;
+  border: none;
+  margin-right: 0px;
+}
+.i-button div{
+  display: inline-block;
+  width: 16%;
+  vertical-align: middle;
+}
+.i-button img{
+  width: 100%;
+}
+
+/* Header Image */
+.header-image{
+  width: 100%;
+  height:720px;
+;
+}
+.header-image img{
+  width: 100%;
+  height: 100%;
+}
+/* Main */
+
+/* Restaurant Brands */
+.res-brands{
+  box-sizing: border-box;
+  height:585px ;
+  padding: 3% 23%;
+  background-color:rgb(0, 0, 0); 
+}
+  /*Resturant text Content  */
+.res-brands-text-content{
+  padding:0px 65px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.res-brands-text-content h1{
+  margin: 0px;
+  font-size:  2.5rem;
+  font-weight:400;
+  padding :0px 65px;
+}
+.res-brands-text-content h1>span{
+  font-family: "Futrak" ;
+  font-size: 3rem;
+}
+.res-brands-text-content  p{
+  margin: 10px 0px 0px 0px ;
+  font-size: 1.2rem  ;
+  color:grey ;
+}
+  /*Resturant Cards  */
+.res-brands-card-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 65%;
+  padding-top: 30px;
+}
+.res-brands-card-content>.cards-box{
+  display: inline-block;
+  width: 100%;
+  height:50%;
+  text-align:center;
+}
+.res-brands-card-content>.cards-box div{
+  box-sizing: border-box;
+  display: inline-block;
+  background-color:white;
+  width:30%;
+  height: 100%;
+  vertical-align: top;
+  border-radius: 3px;
+  margin: 0px 7px;
+  padding: 20px;
+}
+.res-brands-card-content>.cards-box div>img{
+  width: 100%;
+  height: 100%;
+}
+.res-brands-card-content .card-text-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  padding:30px 40px 0px 40px;
+  text-align:center;
+}
+.res-brands-card-content .card-text-content>div{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  height: 55px;
+  margin: 0px 50px;
+  padding: 15px 0px;
+  background-color:black;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+
+}
+/* Restaurant Franchise */
+.r-franchise{
+  box-sizing: border-box;
+  height:1450px;
+  padding: 4% 10%;
+  background-color: rgb(15, 15, 15);
+  background-image: url(Assests/Images/s.webp);
+  background-repeat:no-repeat ;
+  background-position: 95% 5% ;
+}
+/* Restaurant Franchise Text Content */
+.res-franchise-text-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  padding: 0% 20%;
+  color: white;
+  text-align: center
+}
+.res-franchise-text-content h1{
+  margin: 0px;
+  font-size:  3rem;
+  font-family: "Futrak";
+}
+.res-franchise-text-content h2{
+  margin:0px;
+  font-size:3.2rem;
+  font-family:serif;
+}
+.res-franchise-text-content  p{
+  font: 1.2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color:grey ;
+  margin:5px 0px 0px 0px
+}
+
+
+div.ex{
+  height: 5000px;
+  background-color: rgb(15, 24, 32);
+}
