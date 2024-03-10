@@ -228,40 +228,44 @@ body{
   box-sizing:border-box;
   vertical-align: top;
 }
-.card-box-text >div p1{
+.card-box-text >div p1, .SAP-village-franchise-card-box-text-content> div p1{
   margin:0px;
   text-transform: uppercase;
   color:rgb(237, 28, 36) ;
   font: 20px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
   letter-spacing: 2px;
 }
-.res-franchise-cards-content-card-box >.card-box-text >div>h2{
+.res-franchise-cards-content-card-box >.card-box-text >div>h2,.SAP-village-franchise-card-box-text-content> div h2  {
   margin: 0px 0px 25px 0px;
   font:2.2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
-.res-franchise-cards-content-card-box >.card-box-text >div>h2 span{
+.res-franchise-cards-content-card-box >.card-box-text >div>h2 span,
+.SAP-village-franchise-card-box-text-content span{
   font:2rem "Futrak";
   letter-spacing:-1px;
 }
-.res-franchise-cards-content-card-box >.card-box-text>div> p{
+.res-franchise-cards-content-card-box >.card-box-text>div> p , .SAP-village-franchise-card-box-text-content>div> p{
   box-sizing: border-box;
   margin:0px 0px 8px 0px;
   font: 1.3rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   color:grey  ;
 }
-.res-franchise-cards-content-card-box >.card-box-text>div p a{
+.res-franchise-cards-content-card-box >.card-box-text>div p a  , 
+.SAP-village-franchise-card-box-text-content>div p a{
+  font-size: 1.3rem ;
   color: grey;
   text-decoration: none;
 }
-.res-franchise-cards-content-card-box >.card-box-text > .card-button{
+.res-franchise-cards-content-card-box >.card-box-text > .card-button ,
+.SAP-village-franchise-card-box-text-content div.card-button{ 
   box-sizing: border-box;
   width: 100%;
   height: 50%;
   padding: 7% 0% 0% 5%;
   padding: 60px 0px 0px  0px;
 }
-.card-box-text > .card-button  button{
+.card-box-text > .card-button  button , .SAP-village-franchise-card-box-text-content div.card-button>button{
   padding: 15px 20px;
   background-color:transparent;
   border: 1px solid gray;
@@ -269,7 +273,7 @@ body{
   font:15px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:white; */
 }
-.card-box-text > .card-button button>img{
+.card-box-text > .card-button button>img , .SAP-village-franchise-card-box-text-content div.card-button img{
   width:25px;
   background-color: aliceblue;
   margin-left: 5px;
@@ -303,12 +307,12 @@ body{
   padding: 4% 10%;
   background-image:url(Assests/Images/p.webp ) , url(Assests/Images/red-dot.webp);
   background-repeat:no-repeat no-repeat ;
-  background-position:5% 4% , 95% 94%;
+  background-position:5% 4% , 100% 96%;
   background-color: rgb(0, 0, 0);
 }
 
 /* Text  */
-.SAP-express-franchise-text-content{
+.SAP-express-franchise-text-content ,.SAP-village-franchise-text-content {
   box-sizing: border-box;
   width: 100%;
   height: 10%;
@@ -316,12 +320,12 @@ body{
   color: white;
   text-align: center;
 }
-.SAP-express-franchise-text-content h1{
+.SAP-express-franchise-text-content h1 ,.SAP-village-franchise-text-content  h1{
   margin: 0px;
   font-size:  3rem;
   font-family: "Futrak";
 }
-.SAP-express-franchise-text-content h2{
+.SAP-express-franchise-text-content h2,.SAP-village-franchise-text-content  h2 {
   margin:0px;
   font-size:3.2rem;
   font-family:serif;
@@ -418,11 +422,57 @@ body{
   border-radius: 15px;
   vertical-align: middle
 }
+/* Salt'n Pepper Village Franchise */
+.SAP-village-franchise{
+  box-sizing: border-box;
+  width: 100%;
+  height:775px;
+  padding: 3% 0%;
+  background-color:rgb(15, 15, 15);
+}
+/*  Heading Text Content */
+.SAP-village-franchise-text-content{
+  height: 27%;
+}
+/* card Box */
+.SAP-village-franchise-card-box-content{
+  box-sizing: border-box;
+  width: 100%;
+  height:73%;
+  padding-right: 15%;
 
-
-
+  text-align: left;
+}
+.SAP-village-franchise-card-box-content .SAP-village-franchise-card-image{
+  display: inline-block;
+  width:55%;
+  height:100%;
+}
+.SAP-village-franchise-card-image img{
+  width: 100%;
+  height: 100%;
+}
+.SAP-village-franchise-card-box-text-content {
+  display: inline-block;
+  box-sizing: border-box;
+  width:43%;
+  height: 100%;
+  margin-left: 15px;
+  padding: 6% 0%;
+  vertical-align: top;
+}
+.SAP-village-franchise-card-box-text-content> div p1{
+  letter-spacing: 9px;
+}
+.SAP-village-franchise-card-box-text-content> div.card-button{
+  height:43%;
+}
+.SAP-village-franchise-card-box-text-content div.card-button button {
+  background-color:rgb(40, 167, 69) ;
+  border: 0px;
+}
 
 div.ex{
-  height: 50px;
+  height: 100px;
   background-color: rgb(100, 163, 218); 
 }
