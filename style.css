@@ -301,9 +301,9 @@ body{
   width: 100%;
   height: 2600px;
   padding: 4% 10%;
-  background-image:url(Assests/Images/p.webp);
-  background-repeat:no-repeat ;
-  background-position:5% 4%;
+  background-image:url(Assests/Images/p.webp ) , url(Assests/Images/red-dot.webp);
+  background-repeat:no-repeat no-repeat ;
+  background-position:5% 4% , 95% 94%;
   background-color: rgb(0, 0, 0);
 }
 
@@ -386,10 +386,42 @@ body{
 .cards-content-box >.cards-box > .text p,a{
   box-sizing: border-box;
   margin: 0px 0px 8px 0px;
-  font: 1.2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 1rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: grey;
   text-decoration: none;
 }
+.cards-content-box >.cards-box > .text  .card-button{
+  box-sizing: border-box;
+  width: 100%;
+  height:23% ;
+  text-align: center;
+  padding: 0px 25%;
+
+}
+
+.cards-content-box >.cards-box > .text  .card-button  button{
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0px 20px;
+  background-color:transparent;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font:15px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white; */
+}
+.cards-content-box >.cards-box > .text  .card-button  button img{
+  box-sizing: border-box;
+  width: 25px;
+  background-color: aliceblue;
+  margin-left: 5px;
+  padding: 1px;
+  border-radius: 15px;
+  vertical-align: middle
+}
+
+
+
+
 div.ex{
   height: 50px;
   background-color: rgb(100, 163, 218); 
