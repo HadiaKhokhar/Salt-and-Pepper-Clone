@@ -43,7 +43,7 @@ body{
   font-size:18px;
   color: white;
   font-family: sans-serif;
-  margin-right:25px;
+  margin-right:20px;
 }
 /* For Button */
 .nav-buttons-box{
@@ -97,7 +97,7 @@ body{
 /* Restaurant Brands */
 .res-brands{
   box-sizing: border-box;
-  height:585px ;
+  height:px ;
   padding: 3% 23%;
   background-color:rgb(0, 0, 0); 
 }
@@ -173,7 +173,7 @@ body{
 
 }
 /* Restaurant Franchise */
-.r-franchise{
+.res-franchise{
   box-sizing: border-box;
   height:1450px;
   padding: 4% 10%;
@@ -183,14 +183,17 @@ body{
   background-position: 95% 5% ;
 }
 /* Restaurant Franchise Text Content */
+
 .res-franchise-text-content{
   box-sizing: border-box;
   width: 100%;
-  height: 20%;
+  height: 16%;
   padding: 0% 20%;
   color: white;
   text-align: center
 }
+
+/* Text  */
 .res-franchise-text-content h1{
   margin: 0px;
   font-size:  3rem;
@@ -206,9 +209,190 @@ body{
   color:grey ;
   margin:5px 0px 0px 0px
 }
+.res-franchise-cards-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 84%;
+  padding:0% 5%;
+}
+.res-franchise-cards-content-card-box{
+  box-sizing: border-box;
+  width: 100%;
+  height:32%;
+  margin-bottom:22px;
+}
+.res-franchise-cards-content-card-box > .card-box-text{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing:border-box;
+  vertical-align: top;
+}
+.card-box-text >div p1{
+  margin:0px;
+  text-transform: uppercase;
+  color:rgb(237, 28, 36) ;
+  font: 20px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+  letter-spacing: 2px;
+}
+.res-franchise-cards-content-card-box >.card-box-text >div>h2{
+  margin: 0px 0px 25px 0px;
+  font:2.2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.res-franchise-cards-content-card-box >.card-box-text >div>h2 span{
+  font:2rem "Futrak";
+  letter-spacing:-1px;
+}
+.res-franchise-cards-content-card-box >.card-box-text>div> p{
+  box-sizing: border-box;
+  margin:0px 0px 8px 0px;
+  font: 1.3rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color:grey  ;
+}
+.res-franchise-cards-content-card-box >.card-box-text>div p a{
+  color: grey;
+  text-decoration: none;
+}
+.res-franchise-cards-content-card-box >.card-box-text > .card-button{
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  padding: 7% 0% 0% 5%;
+  padding: 60px 0px 0px  0px;
+}
+.card-box-text > .card-button  button{
+  padding: 15px 20px;
+  background-color:transparent;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font:15px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white; */
+}
+.card-box-text > .card-button button>img{
+  width:25px;
+  background-color: aliceblue;
+  margin-left: 5px;
+  padding: 1px;
+  border-radius:15px;
+  vertical-align: middle;
+}
+
+/* Cards */
+.res-franchise-cards-content-card-box > .card-box-card{
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(55, 47, 131);
+}
+.res-franchise-cards-content-card-box>.card-box-card > img{
+  width: 100%;
+  height: 100%;
+}
+.res-franchise-cards-content-card-box:nth-child(2) > div.card-box-text{
+  width: 49%;
+  margin-left: 18px;
+}
+/* Salt and pepper Express Franchise */
+/* Body */
+.SAP-express-franchise{
+  box-sizing: border-box;
+  width: 100%;
+  height: 2600px;
+  padding: 4% 10%;
+  background-image:url(Assests/Images/p.webp);
+  background-repeat:no-repeat ;
+  background-position:5% 4%;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Text  */
+.SAP-express-franchise-text-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  padding: 0% 20%;
+  color: white;
+  text-align: center;
+}
+.SAP-express-franchise-text-content h1{
+  margin: 0px;
+  font-size:  3rem;
+  font-family: "Futrak";
+}
+.SAP-express-franchise-text-content h2{
+  margin:0px;
+  font-size:3.2rem;
+  font-family:serif;
+}
+
+/* Card Section Body */
+.SAP-express-franchise-card-content{
+  box-sizing: border-box;
+  width: 100%;
+  height: 90%;
+  padding:0px 75px ;
+}
+/* cards section */
+.SAP-express-franchise-card-content > .cards-content-box{
+  box-sizing: border-box;
+  width: 100%;
+  height: 22%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* Cards box*/
+.SAP-express-franchise-card-content > .cards-content-box >.cards-box{
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width:30%;
+  height: 100%;
+  margin-right: 10px;
+}
+/* cards */
+.cards-content-box >.cards-box > div.card{
+  box-sizing: border-box;
+  width:100% ;
+  height: 55%;
+  border-radius: 8px;
+}
+.cards-content-box >.cards-box > div.card>img{
+  width: 100%;
+  height: 100%;
+}
+.cards-content-box >.cards-box > .text{
+  box-sizing: border-box;
+  width: 100%;
+  height:45% ;
+  padding-top: 10px;
+}
+.cards-content-box >.cards-box > .text h1{
+  text-transform: uppercase;
+  color: rgb(237, 28, 36);
+  font:  13px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+}
+.cards-content-box >.cards-box > .text h2{
+  margin:0px 0px 10px 0px;
+  font: 1.8rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.cards-content-box >.cards-box > .text h2 span{
+  font: 1.9rem "Futrak";
+  letter-spacing: -1px
+}
+.cards-content-box >.cards-box > .text p,a{
+  box-sizing: border-box;
+  margin: 0px 0px 8px 0px;
+  font: 1.2rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+  text-decoration: none;
+}
 
 
 div.ex{
-  height: 5000px;
-  background-color: rgb(15, 24, 32);
+  height: 50px;
+  background-color: rgb(100, 163, 218); 
 }
