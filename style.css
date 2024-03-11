@@ -2,6 +2,10 @@
   font-family: "Futrak";
   src: url(Assests/Fonts/Futura\ Black.ttf);
 }
+@font-face {
+  font-family:"Aperu" ;
+  src: url(Assests/Fonts/Apercu\ Regular.otf);
+}
 
 
 body{
@@ -579,9 +583,151 @@ body{
 }
 .social-feed-card-section .social-feed-card img{
   width: 100%;
-  height: ;
+
 }
-div.ex{
-  height: 450px;
-  background-color: rgb(224, 103, 4); 
+/* Footer */
+.footer-section{
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  background-image: url(Assests/Images/s-dark.webp) ;
+  background-position: 2% 100%;
+  background-repeat: no-repeat;
+  background-color:rgb(15, 15, 15) ;
+}
+.footer-section  .footer-section-1{
+  width: 100%;
+  height: 85%;
+  box-sizing: border-box;
+  padding:4% 13% 2% 13%;
+}
+/* about us section */
+.footer-section-1 .about-us{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 32%;
+  height: 100%;
+  padding-right:30px ;
+  vertical-align: top;
+}
+.footer-section-1 .about-us .logo{
+  box-sizing: border-box;
+  margin: 10px 0px 25px 0px;
+  width:40%;
+  height:24%;
+  text-align: left;
+}
+.footer-section-1 .about-us img{
+  width: 100%;
+  height: 100%;
+}
+.about-us .about-us-text{
+  box-sizing: border-box;
+  width:100%;
+  height:75%;
+  margin: 0px;
+}
+.about-us .about-us-text p{
+  margin: 0px;
+  font: 1rem "Aperu";
+  color: grey;
+  line-height: 22px;
+}
+.about-us .about-us-text>p+p {
+  margin-top:20px;
+}
+.about-us .about-us-text>p span{
+  margin-right:10px;
+}
+/* Site Links */
+
+.footer-section-1 .site-links {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  vertical-align: top;
+  color: white;
+}
+.footer-section-1 .site-links h3,.footer-section-1 .contact-us h3,.footer-section-1 .follow-us h3 {
+  font: 1.3rem  'Times New Roman', Times, serif;
+}
+.footer-section-1 .site-links ul, .footer-section-1 .contact-us ul,.follow-us  ul {
+  box-sizing: border-box;
+  width:100%;
+  height: 80%;
+  margin:10px 0px 0px 0px;
+  padding: 0px;
+}
+.footer-section-1 .site-links ul li ,.contact-us ul li, .follow-us  ul li{
+  list-style: none;
+  box-sizing: border-box;
+  font: 1.1rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(196, 191, 191);
+  margin-bottom: 12px;
+}
+/* Contact Us */
+.footer-section-1 .contact-us{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  color: white;
+  vertical-align: top;
+  padding-right: 20px;
+}
+/* Follow Us */
+.footer-section-1 .follow-us{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 16%;
+  height: 100%;
+  color:white;
+}
+.footer-section-1 .follow-us h3{
+  margin-top: 0px;
+}
+.footer-section-1 .follow-us li{
+  width: 100%;
+  height:30%;
+  text-align: left;
+}
+.footer-section-1 .follow-us li div.social-media-icons{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  height: 65%;
+  margin-top: 6px;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(237, 28, 36);
+}
+div.social-media-icons  img{
+  width: 100%;
+  height: 100%;
+}
+.follow-us li.store-app-link{
+  height: 60%;
+}
+.store-app-link img{
+  box-sizing: border-box;
+  width: 80%;
+}
+.footer-section-2{
+  box-sizing: border-box;
+  width: 100%;
+  height:15%;
+  padding: 10px 15px 0px 15px;
+}
+.footer-section-2 hr{
+  border: 0.1px solid rgba(128, 128, 128,0.25);
+}
+.footer-section-2 p{
+  padding: 0px 15%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+}
+div.footer-section-2 > p span+span{
+  margin-left:65%;
 }
